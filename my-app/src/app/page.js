@@ -1,4 +1,3 @@
-import EnrollBadge from '@/components/EnrollBadge';
 import PayButton from '@/components/PayButton';
 
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
         {/* 헤더 */}
         <header style={{
           display: 'flex',
-          justifyContent: 'space-between',
+          justifyContent: 'center',
           alignItems: 'center',
           marginBottom: '40px',
           padding: '20px 0'
@@ -27,7 +26,6 @@ export default function Home() {
           }}>
             강의 결제
           </h1>
-          <EnrollBadge />
         </header>
 
         {/* 강의 카드 */}
