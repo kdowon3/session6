@@ -63,7 +63,7 @@ export default function Home() {
                 color: '#6b7280'
               }}>
                 <div>
-                  <strong>일정:</strong> 2024.11.06
+                  <strong>일정:</strong> 2025.11.06
                 </div>
                 <div>
                   <strong>강사:</strong> NEXT
