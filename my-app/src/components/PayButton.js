@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { loadTossPayments } from '@tosspayments/tosspayments-sdk';
 
 export default function PayButton({
   courseId = 'web-dev-course-2024',
