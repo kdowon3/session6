@@ -125,7 +125,7 @@ export default function Home() {
               <PayButton
                 courseId="web-dev-course-2024"
                 courseName="Next.js + Toss Payments 강의"
-                amount={99000}
+                amount={9000}
               />
             </div>
           </div>
