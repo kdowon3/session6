@@ -77,7 +77,7 @@ export default function Home() {
                   color: '#ef4444',
                   marginBottom: '8px'
                 }}>
-                  99,000원
+                  9,000원
                 </div>
               </div>
 
@@ -129,39 +129,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 네비게이션 링크 */}
-        <div style={{
-          display: 'flex',
-          gap: '16px',
-          justifyContent: 'center'
-        }}>
-          <a
-            href="/classroom"
-            style={{
-              padding: '12px 24px',
-              backgroundColor: '#10b981',
-              color: 'white',
-              textDecoration: 'none',
-              borderRadius: '6px',
-              fontWeight: '500'
-            }}
-          >
-            강의실 입장
-          </a>
-          <a
-            href="/dashboard"
-            style={{
-              padding: '12px 24px',
-              backgroundColor: '#6b7280',
-              color: 'white',
-              textDecoration: 'none',
-              borderRadius: '6px',
-              fontWeight: '500'
-            }}
-          >
-            주문 내역
-          </a>
-        </div>
       </div>
     </div>
   );
