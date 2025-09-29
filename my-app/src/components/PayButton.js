@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function PayButton({
     courseId = 'web-dev-course-2024',
     courseName = 'Next.js + Toss Payments 강의',
-    amount = 99000,
+    amount = 9000,
 }) {
     const [loading, setLoading] = useState(false);
     const [showModal, setShowModal] = useState(false);
