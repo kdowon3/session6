@@ -15,18 +15,40 @@ export default function PayButton({
     const handlePayment = async () => {
         setShowModal(true);
 
-        // TODO: Toss Payments 연동 구현
-        // 1단계: Toss Payments SDK 로드
-        // 2단계: 위젯 초기화
-        // 3단계: 금액 설정
-        // 위젯 저장 (4,5단계에서 사용)
-        // 4단계: UI 렌더링
+        try {
+            // 1단계: Toss Payments SDK 로드
+
+            // 2단계: 위젯 초기화
+
+            // 3단계: 금액 설정
+
+            // 위젯 저장 (4,5단계에서 사용)
+
+            // 4단계: UI 렌더링
+
+        } catch (error) {
+            console.error('결제 위젯 초기화 실패:', error);
+            alert('결제 위젯 초기화에 실패했습니다.');
+            setShowModal(false);
+        }
     };
 
     const handleModalPayment = async () => {
-        // TODO: 실제 결제 로직 구현
-        // 5단계: 결제 요청
-        alert('아직 결제 기능이 구현되지 않았습니다.');
+        if (!widgets) {
+            alert('결제 위젯이 준비되지 않았습니다.');
+            return;
+        }
+
+        setLoading(true);
+
+        try {
+            // 5단계: 결제 요청
+
+        } catch (error) {
+            console.error('결제 요청 실패:', error);
+            alert('결제 요청에 실패했습니다.');
+            setLoading(false);
+        }
     };
 
     const closeModal = () => {
