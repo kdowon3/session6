@@ -12,13 +12,13 @@ export async function POST(request) {
         }
 
         // 서버에서 안전한 orderId 생성
-        
 
         // 쿠키에 주문 정보 저장
-        
-
-        
 
         // 결제 위젯에 필요한 정보 반환
-        
+        return NextResponse.json({});
+    } catch (error) {
+        console.error('주문 생성 오류:', error);
+        return NextResponse.json({ error: '주문 생성 중 오류가 발생했습니다.' }, { status: 500 });
+    }
 }
