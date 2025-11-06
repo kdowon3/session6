@@ -42,8 +42,10 @@ export default function PayButton({
         setLoading(true);
 
         try {
-            // 5단계: 결제 요청
+            // 5단계: 주문 생성 및 결제 준비
 
+            
+            // 6단계: 백엔드에서 받은 정보로 위젯 호출
         } catch (error) {
             console.error('결제 요청 실패:', error);
             alert('결제 요청에 실패했습니다.');
